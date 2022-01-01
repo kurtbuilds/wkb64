@@ -27,23 +27,23 @@ $EndComp
 $Comp
 L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW25
 U 1 1 5B722503
-P 5800 4850
-F 0 "SW25" H 5800 5000 50  0000 C CNN
-F 1 "SW_PUSH" H 5800 4750 50  0000 C CNN
-F 2 "keyswitches:SW_PG1350_reversible" H 5800 4850 50  0001 C CNN
-F 3 "" H 5800 4850 50  0000 C CNN
-	1    5800 4850
+P 10600 4200
+F 0 "SW25" H 10600 4350 50  0000 C CNN
+F 1 "SW_PUSH" H 10600 4100 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 10600 4200 50  0001 C CNN
+F 3 "" H 10600 4200 50  0000 C CNN
+	1    10600 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW26
 U 1 1 5B722582
-P 6600 4850
-F 0 "SW26" H 6600 5000 50  0000 C CNN
-F 1 "SW_PUSH" H 6600 4750 50  0000 C CNN
-F 2 "keyswitches:SW_PG1350_reversible" H 6600 4850 50  0001 C CNN
-F 3 "" H 6600 4850 50  0000 C CNN
-	1    6600 4850
+P 5800 4850
+F 0 "SW26" H 5800 5000 50  0000 C CNN
+F 1 "SW_PUSH" H 5800 4750 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 5800 4850 50  0001 C CNN
+F 3 "" H 5800 4850 50  0000 C CNN
+	1    5800 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -577,8 +577,19 @@ $EndComp
 $Comp
 L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW27
 U 1 1 5B7293B0
+P 6600 4850
+F 0 "SW27" H 6600 5000 50  0000 C CNN
+F 1 "SW_PUSH" H 6600 4750 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 6600 4850 50  0001 C CNN
+F 3 "" H 6600 4850 50  0000 C CNN
+	1    6600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW28
+U 1 1 5B734347
 P 7400 4850
-F 0 "SW27" H 7400 5000 50  0000 C CNN
+F 0 "SW28" H 7400 5000 50  0000 C CNN
 F 1 "SW_PUSH" H 7400 4750 50  0000 C CNN
 F 2 "keyswitches:SW_PG1350_reversible" H 7400 4850 50  0001 C CNN
 F 3 "" H 7400 4850 50  0000 C CNN
@@ -586,10 +597,10 @@ F 3 "" H 7400 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW28
-U 1 1 5B734347
+L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW29
+U 1 1 5B73449B
 P 8200 4850
-F 0 "SW28" H 8200 5000 50  0000 C CNN
+F 0 "SW29" H 8200 5000 50  0000 C CNN
 F 1 "SW_PUSH" H 8200 4750 50  0000 C CNN
 F 2 "keyswitches:SW_PG1350_reversible" H 8200 4850 50  0001 C CNN
 F 3 "" H 8200 4850 50  0000 C CNN
@@ -597,21 +608,21 @@ F 3 "" H 8200 4850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW29
-U 1 1 5B73449B
-P 9000 4850
-F 0 "SW29" H 9000 5000 50  0000 C CNN
-F 1 "SW_PUSH" H 9000 4750 50  0000 C CNN
-F 2 "keyswitches:SW_PG1350_reversible" H 9000 4850 50  0001 C CNN
-F 3 "" H 9000 4850 50  0000 C CNN
-	1    9000 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Lily58_Pro-rescue:D-Lily58-cache D25
 U 1 1 5B734844
+P 10900 4350
+F 0 "D25" V 10946 4271 50  0000 R CNN
+F 1 "D" V 10855 4271 50  0000 R CNN
+F 2 "Lily58-footprint:Diode_SOD123" H 10900 4350 50  0001 C CNN
+F 3 "" H 10900 4350 50  0001 C CNN
+	1    10900 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Lily58_Pro-rescue:D-Lily58-cache D26
+U 1 1 5B7349D1
 P 6100 5000
-F 0 "D25" V 6146 4921 50  0000 R CNN
+F 0 "D26" V 6146 4921 50  0000 R CNN
 F 1 "D" V 6055 4921 50  0000 R CNN
 F 2 "Lily58-footprint:Diode_SOD123" H 6100 5000 50  0001 C CNN
 F 3 "" H 6100 5000 50  0001 C CNN
@@ -619,10 +630,10 @@ F 3 "" H 6100 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Lily58_Pro-rescue:D-Lily58-cache D26
-U 1 1 5B7349D1
+L Lily58_Pro-rescue:D-Lily58-cache D27
+U 1 1 5B734B62
 P 6900 5000
-F 0 "D26" V 6946 4921 50  0000 R CNN
+F 0 "D27" V 6946 4921 50  0000 R CNN
 F 1 "D" V 6855 4921 50  0000 R CNN
 F 2 "Lily58-footprint:Diode_SOD123" H 6900 5000 50  0001 C CNN
 F 3 "" H 6900 5000 50  0001 C CNN
@@ -630,10 +641,10 @@ F 3 "" H 6900 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Lily58_Pro-rescue:D-Lily58-cache D27
-U 1 1 5B734B62
+L Lily58_Pro-rescue:D-Lily58-cache D28
+U 1 1 5B734CF9
 P 7700 5000
-F 0 "D27" V 7746 4921 50  0000 R CNN
+F 0 "D28" V 7746 4921 50  0000 R CNN
 F 1 "D" V 7655 4921 50  0000 R CNN
 F 2 "Lily58-footprint:Diode_SOD123" H 7700 5000 50  0001 C CNN
 F 3 "" H 7700 5000 50  0001 C CNN
@@ -641,25 +652,14 @@ F 3 "" H 7700 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Lily58_Pro-rescue:D-Lily58-cache D28
-U 1 1 5B734CF9
+L Lily58_Pro-rescue:D-Lily58-cache D29
+U 1 1 5B734F9E
 P 8500 5000
-F 0 "D28" V 8546 4921 50  0000 R CNN
+F 0 "D29" V 8546 4921 50  0000 R CNN
 F 1 "D" V 8455 4921 50  0000 R CNN
 F 2 "Lily58-footprint:Diode_SOD123" H 8500 5000 50  0001 C CNN
 F 3 "" H 8500 5000 50  0001 C CNN
 	1    8500 5000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Lily58_Pro-rescue:D-Lily58-cache D29
-U 1 1 5B734F9E
-P 9300 5000
-F 0 "D29" V 9346 4921 50  0000 R CNN
-F 1 "D" V 9255 4921 50  0000 R CNN
-F 2 "Lily58-footprint:Diode_SOD123" H 9300 5000 50  0001 C CNN
-F 3 "" H 9300 5000 50  0001 C CNN
-	1    9300 5000
 	0    -1   -1   0   
 $EndComp
 Text GLabel 5250 2550 0    50   Input ~ 0
@@ -684,8 +684,6 @@ Text GLabel 6300 2250 1    50   Input ~ 0
 col4
 Text GLabel 5500 2250 1    50   Input ~ 0
 col5
-Wire Wire Line
-	5250 5150 6100 5150
 Text GLabel 3850 3200 2    50   Input ~ 0
 col5
 Text GLabel 3850 3100 2    50   Input ~ 0
@@ -715,7 +713,6 @@ RESET
 NoConn ~ 3850 2100
 Text GLabel 2550 2100 0    50   Input ~ 0
 LED
-NoConn ~ 3850 2600
 Text GLabel 2550 2600 0    50   Input ~ 0
 SCL
 Text GLabel 2550 2500 0    50   Input ~ 0
@@ -1033,22 +1030,10 @@ Wire Wire Line
 	9300 4500 10100 4500
 Wire Wire Line
 	8700 4200 8700 4850
-Connection ~ 8500 5150
-Wire Wire Line
-	8500 5150 9300 5150
 Wire Wire Line
 	7900 4200 7900 4850
-Connection ~ 7700 5150
-Wire Wire Line
-	7700 5150 8500 5150
 Wire Wire Line
 	7100 4200 7100 4850
-Connection ~ 6900 5150
-Wire Wire Line
-	6900 5150 7700 5150
-Connection ~ 6100 5150
-Wire Wire Line
-	6100 5150 6900 5150
 Wire Wire Line
 	8700 4200 8700 3550
 Connection ~ 8700 4200
@@ -1401,4 +1386,105 @@ Wire Wire Line
 Wire Wire Line
 	3850 2400 4150 2400
 Connection ~ 3550 4550
+$Comp
+L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW30
+U 1 1 61D2BD73
+P 9000 4850
+F 0 "SW30" H 9000 5000 50  0000 C CNN
+F 1 "SW_PUSH" H 9000 4750 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 9000 4850 50  0001 C CNN
+F 3 "" H 9000 4850 50  0000 C CNN
+	1    9000 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5150 6100 5150
+$Comp
+L Lily58_Pro-rescue:D-Lily58-cache D30
+U 1 1 61D2EED3
+P 9300 5000
+F 0 "D30" V 9346 4921 50  0000 R CNN
+F 1 "D" V 9255 4921 50  0000 R CNN
+F 2 "Lily58-footprint:Diode_SOD123" H 9300 5000 50  0001 C CNN
+F 3 "" H 9300 5000 50  0001 C CNN
+	1    9300 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW31
+U 1 1 61D2F84F
+P 9800 4850
+F 0 "SW31" H 9800 5000 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 4750 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 9800 4850 50  0001 C CNN
+F 3 "" H 9800 4850 50  0000 C CNN
+	1    9800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58_Pro-rescue:D-Lily58-cache D31
+U 1 1 61D30815
+P 10100 5000
+F 0 "D31" V 10146 4921 50  0000 R CNN
+F 1 "D" V 10055 4921 50  0000 R CNN
+F 2 "Lily58-footprint:Diode_SOD123" H 10100 5000 50  0001 C CNN
+F 3 "" H 10100 5000 50  0001 C CNN
+	1    10100 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Lily58_Pro-rescue:SW_PUSH-Lily58-cache SW32
+U 1 1 61D3143A
+P 10600 4850
+F 0 "SW32" H 10600 5000 50  0000 C CNN
+F 1 "SW_PUSH" H 10600 4750 50  0000 C CNN
+F 2 "keyswitches:SW_PG1350_reversible" H 10600 4850 50  0001 C CNN
+F 3 "" H 10600 4850 50  0000 C CNN
+	1    10600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58_Pro-rescue:D-Lily58-cache D32
+U 1 1 61D31975
+P 10900 5000
+F 0 "D32" V 10946 4921 50  0000 R CNN
+F 1 "D" V 10855 4921 50  0000 R CNN
+F 2 "Lily58-footprint:Diode_SOD123" H 10900 5000 50  0001 C CNN
+F 3 "" H 10900 5000 50  0001 C CNN
+	1    10900 5000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3850 2600 2    50   Input ~ 0
+col6
+Text GLabel 10300 2250 1    50   Input ~ 0
+col6
+Connection ~ 6100 5150
+Wire Wire Line
+	6100 5150 6900 5150
+Connection ~ 6900 5150
+Wire Wire Line
+	6900 5150 7700 5150
+Connection ~ 7700 5150
+Wire Wire Line
+	7700 5150 8500 5150
+Connection ~ 8500 5150
+Wire Wire Line
+	8500 5150 9300 5150
+Wire Wire Line
+	9300 5150 10100 5150
+Connection ~ 9300 5150
+Wire Wire Line
+	9500 4200 9500 4850
+Connection ~ 9500 4200
+Wire Wire Line
+	10300 2250 10300 4200
+Wire Wire Line
+	10900 4500 10100 4500
+Connection ~ 10100 4500
+Wire Wire Line
+	10300 4200 10300 4850
+Connection ~ 10300 4200
+Wire Wire Line
+	10900 5150 10100 5150
+Connection ~ 10100 5150
 $EndSCHEMATC
